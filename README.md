@@ -1,59 +1,31 @@
-# 📌 Lighthouse_DataScience
 
-Desafio: **Análise Exploratória e Predição de Notas IMDb**
 
-Este projeto realiza uma **Análise Exploratória de Dados (EDA)** em um dataset de filmes do IMDb e desenvolve um modelo preditivo para estimar as notas **IMDb Rating**.
+# Desafio Lighthouse_DataScience: Análise Exploratória e Predição de Notas IMDb
 
----
+## Este projeto realiza uma Análise Exploratória de Dados (EDA) em um dataset de filmes do IMDb e desenvolve um modelo preditivo para estimar as notas IMDb Rating.
 
-## ⚙️ Como instalar e executar
+### Intalação e execução:
 
-### 1️⃣ Baixe os arquivos do projeto
-Clone este repositório ou baixe os arquivos em uma pasta local no seu computador.
+1 - Baixe os arquivos enviados para o seu computador.
 
-```bash
-git clone https://github.com/usuario/Lighthouse_DataScience.git
-cd Lighthouse_DataScience
+2 - Crie um ambiente virtual:
 
-2️⃣ Crie um ambiente virtual
+   * Linux/MacOS: python3 -m venv venv e depois source venv/bin/activate
 
-Linux/MacOS
+   * Windows: python -m venv venv e depois venv\Scripts\activate
 
-python3 -m venv venv
-source venv/bin/activate
+3 - Instale as dependências: pip install -r requirements.txt
 
-Windows
+4 - Execute o notebook: LH_CD_Leonardo_Schmitt.ipynb
 
-python -m venv venv
-venv\Scripts\activate
+#### Caso prefira, é possível utilizar o Visual Studio Code. Para isso:
 
-3️⃣ Instale as dependências
+1 - Baixe o VS Code no site oficial: https://code.visualstudio.com/
 
-Certifique-se de que o ambiente virtual está ativado e rode:
+2 - Abra a pasta do projeto dentro do software.
 
-pip install -r requirements.txt
+3 - Abra um terminal integrado no VS Code e garanta que está na pasta do projeto.
 
-4️⃣ Execute o notebook
+4 - Ative o ambiente virtual conforme descrito acima.
 
-Com todas as dependências instaladas, execute o notebook principal:
-
-jupyter notebook LH_CD_Leonardo_Schmitt.ipynb
-
-💻 Opção: Executar no Visual Studio Code
-
-    Baixe e instale o Visual Studio Code
-
-.
-
-Abra a pasta do projeto no VS Code.
-
-Abra um terminal dentro do VS Code e certifique-se de estar no diretório do projeto.
-
-Crie o ambiente virtual e instale as dependências:
-
-python -m venv venv
-venv\Scripts\activate   # no Windows
-source venv/bin/activate   # no Linux/MacOS
-pip install -r requirements.txt
-
-Abra o notebook diretamente no VS Code ou rode com o Jupyter.
+5 - Execute novamente o comando: pip install -r requirements.txt.
